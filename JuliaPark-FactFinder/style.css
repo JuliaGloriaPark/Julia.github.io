@@ -1,0 +1,42 @@
+main{
+	border: 2px solid #1d3557;
+	display: grid;
+	width: 800px;
+	height: 600px;
+	grid-template-rows:100px auto;
+}
+
+#factdisplay{
+	border: 1px solid #1d3557;
+	background-color: #ade8f4;
+	padding: 10px;
+}
+
+input{
+	border: 2px solid #1d3557;
+	background-color: #ffddd2;
+	color: #e29578;
+	border-radius:12.5%;
+	font-size: 40px;
+	font-family: brush script mt;
+}
+
+input:hover{
+	color: #006d77;
+	background-color: #83c5be;
+}
+
+form{
+	background-color:#457b9d;
+	border: 1px solid #1d3557;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:5px;
+	padding:5px;
+}
+
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
